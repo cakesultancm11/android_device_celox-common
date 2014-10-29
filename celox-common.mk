@@ -43,6 +43,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb
 
+# Enable Chromecast settings support
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.enable.chromecast.mirror=true
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
