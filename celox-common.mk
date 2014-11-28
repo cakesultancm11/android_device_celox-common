@@ -40,6 +40,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.mode=endfire \
     persist.audio.vr.enable=false
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
